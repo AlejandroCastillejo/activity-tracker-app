@@ -1,0 +1,20 @@
+.table-item {
+  display: grid;
+  grid-template-columns: 45px 2fr 1fr 1fr;
+
+  .item-block {
+    border: 1px solid rgb(86, 99, 100);
+    padding: 6px 8px;
+    text-align: initial;
+    overflow: hidden;
+    text-transform: capitalize;
+    min-width: 75px;
+
+    &:first-child {
+      min-width: auto;
+    }
+  }
+}
+.table-item:nth-child(odd) {
+  background: rgb(224, 241, 243);
+}

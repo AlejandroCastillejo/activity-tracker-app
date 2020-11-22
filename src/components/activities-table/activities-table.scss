@@ -1,0 +1,28 @@
+.activities-table {
+  justify-self: center;
+  width: 80%;
+  border: 2px solid rgb(37, 45, 48);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.39);
+  min-width: 350px;
+
+  .table-header {
+    background-color: rgb(153, 153, 153);
+    display: grid;
+    font-weight: 900;
+    grid-template-columns: 45px 2fr 1fr 1fr;
+
+    .header-block {
+      border: 1px solid rgb(86, 99, 100);
+      padding: 6px 8px;
+      text-align: initial;
+      overflow: hidden;
+      min-width: 75px;
+
+      &:first-child {
+        min-width: auto;
+        align-content: center;
+      }
+    }
+  }
+}
